@@ -1,5 +1,9 @@
-# Java Poker Project
-### 한국식 세븐 포커 룰 기반의 콘솔/GUI 게임입니다.
+# 🃏 한국식 세븐 포커 룰 기반의 콘솔/GUI 게임
+
+## 🔗 UML 다이어그램
+
+![image](https://github.com/user-attachments/assets/faa73c2d-e9e1-4e46-bf66-b6daf43e4de4)
+
 
 ## 🎮 게임 진행 흐름
 
@@ -14,6 +18,28 @@
   -  유저, 컴퓨터 2장 히든 유지
 -  진행: 총 7장(오픈+히든) 카드 상태로 단계별 베팅 및 카드 수령
   - 쇼다운: 최종 베팅 후 카드 공개, 족보 비교로 승자 결정
+
+## 🛠️ 게임 구현
+
+- 게임 시작 메인화면
+
+![image](https://github.com/user-attachments/assets/f6845205-ede0-4ab8-a038-111e9a10f2ba)
+
+- 카드 배분 및 버리는 카드, 오픈 카드 선택 화면
+  - 게임 시작 직후 플레이어에게 4장의 카드 분배
+  - 버릴 카드 1장과 오픈할 카드 1장을 선택하면 나머지 3장의 카드만 화면에 남아 표시
+    
+![image](https://github.com/user-attachments/assets/c2953c9b-422e-4013-ab7e-e00f7959695a)
+
+- 쇼다운 및 결과 화면
+  -   컴퓨터와 유저의 7장 카드를 모두 오픈해 족보를 비교하고 승패를 표시
+  -   각자 남은 코인, 팟 크기, 이번 라운드 베팅 금액을 표시
+  -   “게임 재시작/이어하기” 버튼을 통해 다음 행동 선택
+  
+![image](https://github.com/user-attachments/assets/9a2616d0-7d71-4a67-84bc-c7341c156c8d)
+
+## 🎥 플레이 구현 영상 
+![세븐포커-2025-06-07-16-01-49](https://github.com/user-attachments/assets/a4e667de-d889-4970-aa91-3e6117f88d88)
 
 ## ⚙️ 주요 게임 행동
 
@@ -50,4 +76,6 @@
 | **GameGUI.java**             | GUI 화면 구성, 카드·버튼 표시, 사용자 입력 처리                                |
 
 </div>
+
+
 
